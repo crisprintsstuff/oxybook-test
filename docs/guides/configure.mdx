@@ -1,0 +1,26 @@
+---
+title: Configure
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Configure
+
+Pick how you run the server:
+
+<Tabs>
+  <TabItem value="compose" label="Docker Compose">
+    Set values in `.env`. Compose reads the same file.
+  </TabItem>
+  <TabItem value="host" label="On the host">
+    Load `.env` with `set -a; . ./.env; set +a`, then run `pnpm dev`.
+  </TabItem>
+</Tabs>
+
+The default port is {3000}. Grafana uses the same port, so set `PORT` when both run.
+
+<VersionBadge since="0.1" />
+
+{/* VersionBadge is not a built-in component; it should render as a placeholder with a warning. */}
+
+See the [CLI reference](../reference/cli.md) and the [settings that do not exist yet](../reference/settings.md).

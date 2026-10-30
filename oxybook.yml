@@ -1,0 +1,9 @@
+# OxyBook space config for the M1 test site. See OxyBook docs/ARCHITECTURE.md §2 and §5.2.
+title: OxyBook test site
+
+# Map Docusaurus-style imports to built-in components without executing them.
+components:
+  "@theme/Tabs": Tabs
+  "@theme/TabItem": TabItem
+
+redirects: []

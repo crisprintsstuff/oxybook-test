@@ -16,6 +16,6 @@ Test repository for [OxyBook](https://github.com/crisprintsstuff/OxyBook). It is
 | `docs/reference/environment.md` | `slug` override |
 | `docs/reference/internal-notes.md` | `hidden: true` |
 | `docs/_partials/` | never a page |
-| `docs/placeholder.md`, `docs/test-page.md` | earlier test files, kept |
+| `docs/test-page.md`, `docs/test-page-2.md` | earlier test files, kept |
 
 The broken link in `configure.mdx` (to `reference/settings.md`) is intentional: the build should warn about it.

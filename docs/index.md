@@ -9,7 +9,7 @@ This repository is the test space for [OxyBook](https://github.com/crisprintsstu
 
 - Start with [Getting started](getting-started.md).
 - The [guides](guides/index.mdx) cover installation and configuration.
-- The [reference](reference/cli.md) lists commands and settings.
+- The [reference](reference/commands.md) lists commands and settings.
 
 :::note
 Edits to this repository should arrive as pull requests from an `oxybook/*` branch.

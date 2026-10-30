@@ -11,7 +11,7 @@ You need three things:
 2. The OxyBook GitHub App installed on that repository.
 3. A space that points at the repository.
 
-Then read [Install](guides/install.md).
+Then read [Install](guides/install.md). It takes about five minutes.
 
 > [!TIP]
 > Relative links like the one above stay valid on GitHub and are rewritten to site URLs when OxyBook builds the site.
